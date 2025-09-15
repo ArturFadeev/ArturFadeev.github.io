@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./normalize.css" rel="stylesheet">
+  <link href="./ios.css" rel="stylesheet">
+  <title>Artur Fadeev</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header fade-in">
+      <img src="./IMG_4269.jpeg" alt="avatar" class="header__avatar">
+      <div class="header__textContainer">
+        <h1 class="header__title">Artur Fadeev</h1>
+        <h3 class="header__subtitle">One of Evgeny Shandrik’s students</h3>
+      </div>
+    </header>
+
+    <main>
+      <section class="links fade-in">
+        <h2 class="links__header">Contacts</h2>
+        <ul class="links__container">
+          <li class="links__link">
+            <span class="icon">📩</span>
+            <p class="links__title">Email</p>
+            <a class="links__link-item" href="mailto:fadeev-2001@mail.ru">fadeev-2001@mail.ru</a>
+          </li>
+          <li class="links__link">
+            <span class="icon">💬</span>
+            <p class="links__title">Telegram</p>
+            <a class="links__link-item" href="https://t.me/fa_artur" target="_blank">https://t.me/fa_artur</a>
+          </li>
+          <li class="links__link">
+            <span class="icon">📘</span>
+            <p class="links__title">Facebook</p>
+            <a class="links__link-item" href="https://fb.com/fadeev.artur" target="_blank">fb.com/fadeev.artur</a>
+          </li>
+          <li class="links__link">
+            <span class="icon">🎥</span>
+            <p class="links__title">YouTube</p>
+            <a class="links__link-item" href="https://www.youtube.com/@DjFadey" target="_blank">DjFadey</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="links fade-in">
+        <h2 class="links__header">Hobbies</h2>
+        <ul class="links__container">
+          <li class="links__link">
+            <span class="icon">🎓</span>
+            <p class="links__title">Student</p>
+            <a class="links__link-item" href="https://qa.studio/" target="_blank">qa.studio/</a>
+          </li>
+          <li class="links__link">
+            <span class="icon">🎧</span>
+            <p class="links__title">DJing</p>
+            <a class="links__link-item" href="#" target="_blank">In clubs</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="skills fade-in">
+        <h2 class="links__header">Skills & Tools</h2>
+        <ul class="skills__list">
+          <li>QA / Testing</li>
+          <li>HTML / CSS / JavaScript</li>
+          <li>Postman</li>
+          <li>Metabase</li>
+          <li>Kibana</li>
+          <li>Kafka</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="fade-in">
+      <button class="button-link" id="qaBtn">Is QA hard to learn?</button>
+    </footer>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>QA Studio</h2>
+      <p>Learning QA is interesting and accessible! Try it now.</p>
+      <a href="https://qa.studio/" target="_blank" class="button-link">Go to site</a>
+    </div>
+  </div>
+
+  <script src="js.js"></script>
+</body>
+</html>

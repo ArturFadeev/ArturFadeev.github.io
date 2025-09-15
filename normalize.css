@@ -1,0 +1,35 @@
+/* http://necolas.github.io/normalize.css/ */
+html {
+  line-height: 1.15; 
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+main {
+  display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  margin: 0;
+}
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
